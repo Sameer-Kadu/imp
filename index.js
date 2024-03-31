@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.post('/api/send', (req, res) => {
+app.post('/api/sendnudes', (req, res) => {
     const {v1, v2, v3, v4, v5} = req.body;
     console.log(req.body)
     res.send(req.body)
