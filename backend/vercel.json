@@ -11,7 +11,7 @@
     ],
     "routes": [
       {
-      "src": "/socket.io/", 
+      "src": "/socket.io/*", 
       "dest": "/dev/null"     
     },
     { "src": "/[^.]+", "dest": "index.js" }
