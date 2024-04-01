@@ -65,6 +65,10 @@ app.post('/api/sendnudes', (req, res) => {
     // })
 })
 
+app.get('/api', (req, res) => {
+  res.send('Hello test!');
+})
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
