@@ -38,20 +38,26 @@ const App = () => {
   },[]);
 
   return (
-    <div>
-      <h1>The Ultimate sameer kadu project</h1>
+    <div style={{ backgroundImage: "url('../public/back.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh'}}>
+      <center><h1>Multi-Utility real-time Energy Management controller</h1>
       {/* Displaying the data received from WebSocket server */}
       <p>Data:  
       {data &&
-      <div>
-      <p>v1: {data.v1}</p>
-      <p>v2: {data.v2}</p>
-      <p>v3: {data.v3}</p>
-      <p>v4: {data.v4}</p>
-      <p>v5: {data.v5}</p>
-      </div>
+     <div id='test'>
+     <div>
+   <h2>v1: {data.v1}</h2>
+   <h2>v2: {data.v2}</h2>
+   <h2>v3: {data.v3}</h2></div>
+   <div>
+   <h2>v4: {data.v4}</h2>
+   <h2>v5: {data.v5}</h2>
+   <h2>v6: {data.v6}</h2>
+   </div>
+   </div>
       }
+      
       </p>
+      </center>
     </div>
   );
 };
