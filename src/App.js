@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 
 // Assuming your WebSocket server is running on this URL
-const SOCKET_SERVER_URL = 'http://localhost:5000'; 
+// const SOCKET_SERVER_URL = 'http://localhost:5000'; 
+
+const SOCKET_SERVER_URL = 'https://imp-server.vercel.app'; 
 
 const App = () => {
   const [socket, setSocket] = useState(null);
