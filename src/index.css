@@ -26,4 +26,11 @@ code {
 
 h2 {
   margin: 20px;
+  font-size: 25px;
+}
+.title{
+  font-size: 100px;
+}
+.data{
+  font-size: 40px;
 }
