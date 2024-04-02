@@ -45,13 +45,13 @@ const App = () => {
       {data &&
      <div id='test'>
      <div>
-   <h2>Voltage: {data.v1}</h2>
-   <h2>Wind Power: {data.v2}</h2>
-   <h2>Solar Power: {data.v3}</h2></div>
+   <h2>Voltage(MW): {data.v1}</h2>
+   <h2>Wind Power(MW): {data.v2}</h2>
+   <h2>Solar Power(MW): {data.v3}</h2></div>
    <div>
-   <h2>Diesel P1: {data.v4}</h2>
-   <h2>Diesel P2: {data.v5}</h2>
-   <h2>Load: {data.v6}</h2>
+   <h2>Diesel P1(MW): {data.v4}</h2>
+   <h2>Diesel P2(MW): {data.v5}</h2>
+   <h2>Load(MW): {data.v6}</h2>
    </div>
    </div>
       }
