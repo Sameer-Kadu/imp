@@ -39,19 +39,19 @@ const App = () => {
 
   return (
     <div style={{ backgroundImage: "url('../public/back.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh'}}>
-      <center><h1>Multi-Utility real-time Energy Management controller</h1>
+      <center><h1 className='title'>Multi-Utility real-time Energy Management controller</h1>
       {/* Displaying the data received from WebSocket server */}
-      <p>Data:  
+      <p><h2 className='data'>Data:</h2>  
       {data &&
      <div id='test'>
      <div>
-   <h2>v1: {data.v1}</h2>
-   <h2>v2: {data.v2}</h2>
-   <h2>v3: {data.v3}</h2></div>
+   <h2>Voltage(MW): {data.v1}</h2>
+   <h2>Wind Power(MW): {data.v2}</h2>
+   <h2>Solar Power(MW): {data.v3}</h2></div>
    <div>
-   <h2>v4: {data.v4}</h2>
-   <h2>v5: {data.v5}</h2>
-   <h2>v6: {data.v6}</h2>
+   <h2>Diesel P1(MW): {data.v4}</h2>
+   <h2>Diesel P2(MW): {data.v5}</h2>
+   <h2>Load(MW): {data.v6}</h2>
    </div>
    </div>
       }
