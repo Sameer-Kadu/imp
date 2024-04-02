@@ -3,7 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    background-image: url('../public/back.jpg'); /* Specify the path to your image */
+    background-image: url('../public/power.jpg'); /* Specify the path to your image */
   background-size: cover; 
   background-repeat: no-repeat;
   overflow-y: hidden;
